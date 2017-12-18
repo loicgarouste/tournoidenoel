@@ -1,6 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 
@@ -27,7 +25,7 @@ textarea,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -41,13 +39,7 @@ textarea,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Arvo', serif;
-}
-.btn {
-  border-radius: 2.6em;
-}
-.mbr-gallery-filter ul li {
-  border-radius: 2.6em;
+  font-family: 'Open Sans', sans-serif;
 }
 .btn-sm,
 .mbr-section-subtitle,
@@ -55,43 +47,43 @@ textarea,
 .nav-tabs .nav-link,
 .mbr-testimonial .card-block,
 .table th {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 .bg-primary {
   background-color: #f39c12 !important;
 }
 .bg-success {
-  background-color: #2ecc71 !important;
+  background-color: #ffd220 !important;
 }
 .bg-info {
-  background-color: #3498db !important;
+  background-color: #ffd220 !important;
 }
 .bg-warning {
   background-color: #f1c40f !important;
 }
 .bg-danger {
-  background-color: #e74c3c !important;
+  background-color: #ffd220 !important;
 }
 .btn-primary {
   background-color: #f39c12;
   border-color: #f39c12;
-  color: #000000;
+  color: #f39c12;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -109,9 +101,9 @@ textarea,
   border-color: #f5b043 !important;
 }
 .btn-secondary {
-  background-color: #9b59b6;
-  border-color: #9b59b6;
-  color: #000000;
+  background-color: #ffd220;
+  border-color: #ffd220;
+  color: #f39c12;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
@@ -119,19 +111,19 @@ textarea,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #b07cc6;
-  border-color: #b07cc6;
+  background-color: #ffdc53;
+  border-color: #ffdc53;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #b07cc6 !important;
-  border-color: #b07cc6 !important;
+  background-color: #ffdc53 !important;
+  border-color: #ffdc53 !important;
 }
 .btn-info {
-  background-color: #3498db;
-  border-color: #3498db;
-  color: #000000;
+  background-color: #ffd220;
+  border-color: #ffd220;
+  color: #f39c12;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -139,19 +131,19 @@ textarea,
 .btn-info:active,
 .btn-info.active {
   color: #ffffff;
-  background-color: #5faee3;
-  border-color: #5faee3;
+  background-color: #ffdc53;
+  border-color: #ffdc53;
 }
 .btn-info.disabled,
 .btn-info:disabled {
   color: #ffffff !important;
-  background-color: #5faee3 !important;
-  border-color: #5faee3 !important;
+  background-color: #ffdc53 !important;
+  border-color: #ffdc53 !important;
 }
 .btn-success {
-  background-color: #2ecc71;
-  border-color: #2ecc71;
-  color: #000000;
+  background-color: #ffd220;
+  border-color: #ffd220;
+  color: #f39c12;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -159,19 +151,19 @@ textarea,
 .btn-success:active,
 .btn-success.active {
   color: #ffffff;
-  background-color: #54d98c;
-  border-color: #54d98c;
+  background-color: #ffdc53;
+  border-color: #ffdc53;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #54d98c !important;
-  border-color: #54d98c !important;
+  background-color: #ffdc53 !important;
+  border-color: #ffdc53 !important;
 }
 .btn-warning {
   background-color: #f1c40f;
   border-color: #f1c40f;
-  color: #000000;
+  color: #f39c12;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -189,9 +181,9 @@ textarea,
   border-color: #f4d03f !important;
 }
 .btn-danger {
-  background-color: #e74c3c;
-  border-color: #e74c3c;
-  color: #000000;
+  background-color: #ffd220;
+  border-color: #ffd220;
+  color: #f39c12;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -199,14 +191,14 @@ textarea,
 .btn-danger:active,
 .btn-danger.active {
   color: #ffffff;
-  background-color: #ed7669;
-  border-color: #ed7669;
+  background-color: #ffdc53;
+  border-color: #ffdc53;
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
   color: #ffffff !important;
-  background-color: #ed7669 !important;
-  border-color: #ed7669 !important;
+  background-color: #ffdc53 !important;
+  border-color: #ffdc53 !important;
 }
 .btn-primary-outline {
   background: none;
@@ -230,8 +222,8 @@ textarea,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #9752b3;
-  color: #9752b3;
+  border-color: #ffd016;
+  color: #ffd016;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -239,19 +231,19 @@ textarea,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #fff;
-  background-color: #9b59b6;
-  border-color: #9b59b6;
+  background-color: #ffd220;
+  border-color: #ffd220;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #000000 !important;
-  background-color: #9b59b6 !important;
-  border-color: #9b59b6 !important;
+  background-color: #ffd220 !important;
+  border-color: #ffd220 !important;
 }
 .btn-info-outline {
   background: none;
-  border-color: #2b94d9;
-  color: #2b94d9;
+  border-color: #ffd016;
+  color: #ffd016;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
@@ -259,19 +251,19 @@ textarea,
 .btn-info-outline:active,
 .btn-info-outline.active {
   color: #fff;
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #ffd220;
+  border-color: #ffd220;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
   color: #000000 !important;
-  background-color: #3498db !important;
-  border-color: #3498db !important;
+  background-color: #ffd220 !important;
+  border-color: #ffd220 !important;
 }
 .btn-success-outline {
   background: none;
-  border-color: #2cc46c;
-  color: #2cc46c;
+  border-color: #ffd016;
+  color: #ffd016;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
@@ -279,14 +271,14 @@ textarea,
 .btn-success-outline:active,
 .btn-success-outline.active {
   color: #fff;
-  background-color: #2ecc71;
-  border-color: #2ecc71;
+  background-color: #ffd220;
+  border-color: #ffd220;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #000000 !important;
-  background-color: #2ecc71 !important;
-  border-color: #2ecc71 !important;
+  background-color: #ffd220 !important;
+  border-color: #ffd220 !important;
 }
 .btn-warning-outline {
   background: none;
@@ -310,8 +302,8 @@ textarea,
 }
 .btn-danger-outline {
   background: none;
-  border-color: #e64433;
-  color: #e64433;
+  border-color: #ffd016;
+  color: #ffd016;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
@@ -319,14 +311,14 @@ textarea,
 .btn-danger-outline:active,
 .btn-danger-outline.active {
   color: #fff;
-  background-color: #e74c3c;
-  border-color: #e74c3c;
+  background-color: #ffd220;
+  border-color: #ffd220;
 }
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
   color: #000000 !important;
-  background-color: #e74c3c !important;
-  border-color: #e74c3c !important;
+  background-color: #ffd220 !important;
+  border-color: #ffd220 !important;
 }
 .btn-primary.btn-text {
   color: #f39c12;
@@ -343,7 +335,7 @@ textarea,
   border: none !important;
 }
 .btn-secondary.btn-text {
-  color: #9b59b6;
+  color: #ffd220;
   background: none;
   border: none;
 }
@@ -352,12 +344,12 @@ textarea,
 .btn-secondary.btn-text.focus,
 .btn-secondary.btn-text:active,
 .btn-secondary.btn-text.active {
-  color: #b07cc6;
+  color: #ffdc53;
   background: none !important;
   border: none !important;
 }
 .btn-info.btn-text {
-  color: #3498db;
+  color: #ffd220;
   background: none;
   border: none;
 }
@@ -366,12 +358,12 @@ textarea,
 .btn-info.btn-text.focus,
 .btn-info.btn-text:active,
 .btn-info.btn-text.active {
-  color: #5faee3;
+  color: #ffdc53;
   background: none !important;
   border: none !important;
 }
 .btn-success.btn-text {
-  color: #2ecc71;
+  color: #ffd220;
   background: none;
   border: none;
 }
@@ -380,7 +372,7 @@ textarea,
 .btn-success.btn-text.focus,
 .btn-success.btn-text:active,
 .btn-success.btn-text.active {
-  color: #54d98c;
+  color: #ffdc53;
   background: none !important;
   border: none !important;
 }
@@ -399,7 +391,7 @@ textarea,
   border: none !important;
 }
 .btn-danger.btn-text {
-  color: #e74c3c;
+  color: #ffd220;
   background: none;
   border: none;
 }
@@ -408,7 +400,7 @@ textarea,
 .btn-danger.btn-text.focus,
 .btn-danger.btn-text:active,
 .btn-danger.btn-text.active {
-  color: #ed7669;
+  color: #ffdc53;
   background: none !important;
   border: none !important;
 }
@@ -444,28 +436,28 @@ textarea,
   color: #f39c12 !important;
 }
 .text-success {
-  color: #2ecc71 !important;
+  color: #ffd220 !important;
 }
 .text-info {
-  color: #3498db !important;
+  color: #ffd220 !important;
 }
 .text-warning {
   color: #f1c40f !important;
 }
 .text-danger {
-  color: #e74c3c !important;
+  color: #ffd220 !important;
 }
 .alert-success {
-  background-color: #2ecc71;
+  background-color: #ffd220;
 }
 .alert-info {
-  background-color: #3498db;
+  background-color: #ffd220;
 }
 .alert-warning {
   background-color: #f1c40f;
 }
 .alert-danger {
-  background-color: #e74c3c;
+  background-color: #ffd220;
 }
 .btn-social {
   border-color: #f39c12;
@@ -500,11 +492,11 @@ textarea,
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #d1f5e0;
+  color: #fffbec;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #e1f0fa;
+  color: #fffbec;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -512,7 +504,7 @@ textarea,
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #fdf3f2;
+  color: #fffbec;
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
@@ -532,12 +524,6 @@ textarea,
 }
 /*end-nav-tabs*/
 /*mbr-arrow next and toTop*/
-.mbr-arrow a {
-  border-radius: 50% !important;
-}
-.mbr-arrow-up a {
-  border-radius: 50% !important;
-}
 .mbr-arrow a,
 .mbr-arrow-up a {
   background: rgba(243, 156, 18, 0.6);
@@ -630,11 +616,11 @@ blockquote {
 }
 /*countdown*/
 .countdown .period {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 .countdown .number {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .countdown1 .number-wrap {
   border-color: #f39c12;
@@ -665,7 +651,7 @@ blockquote {
   color: #f39c12;
 }
 .shop1 .shop-item-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .shop1 .mbr-gallery-item:hover .item_overlay {
   background: #f39c12;
@@ -679,7 +665,7 @@ blockquote {
 .person-info .title3,
 .team1 .title4,
 .person-info .title4 {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .team1 .subtitle1,
 .person-info .subtitle1,
@@ -689,7 +675,7 @@ blockquote {
 .person-info .subtitle3,
 .team1 .subtitle4,
 .person-info .subtitle4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .team1 .text1,
 .person-info .text1,
@@ -711,16 +697,16 @@ blockquote {
   font-family: 'Open Sans', sans-serif;
 }
 .features9 .timeline-panel h4 {
-  font-family: 'Arvo', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .features9 .timeline-panel p {
   font-family: 'Open Sans', sans-serif;
 }
 .features9 .date-normal p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .features9 .date-inverted p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /*end colorM*/
 #menu-2 .hide-buttons .nav-btn {
