@@ -7,6 +7,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -792,6 +793,10 @@ blockquote {
   text-align: left;
   color: #f1c40f;
   font-size: 30px;
+}
+#header2-0 .mbr-section-subtitle P {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffd220;
 }
 #table1-1 th {
   color: #9fa3a7;
