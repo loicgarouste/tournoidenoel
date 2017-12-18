@@ -174,11 +174,11 @@
             "showText": true,
             "showButtons": false,
             "buttonAlign": "left",
-            "showArrow": false,
+            "showArrow": true,
             "iconsColor": "#94db34",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
-            "parallax": false,
+            "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#8e44ad",
             "bgVideoRadio": false,
@@ -187,11 +187,11 @@
             },
             "overlay": true,
             "overlayColor": "#f1c40f",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.1"
           },
-          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "<br>Le Grand Tournoi de Noël<br>",
-          "text": "<p>ne ratez pas l'occasion de gagner un premier prix de 85'000 euros<br><br>CLASSEMENT INTERMEDI&nbsp;AIRE<br></p>",
+          "text": "<p><span style=\"font-weight: normal;\">ne ratez pas l'occasion de gagner un premier prix de 85'000 euros</span><br><br><span style=\"font-weight: normal;\">CLASSEMENT INTERMEDI&nbsp;AIRE</span><br></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a>",
           "alias": "colorm/components",
           "_tags": [
