@@ -1,0 +1,274 @@
+{
+  "settings": {
+    "name": "TOURNOU DE NOEL",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#fffec5",
+        "#94db34",
+        "#ffd220"
+      ]
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 3,
+    "versionPublish": "4.5.2",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "http://vegasfiesta.fr",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#fffec5"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fffec5"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fffec5",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Lato', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#fffec5"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#962d22"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b33528!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c0392b"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fffec5",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#c0392b",
+            "fontSize": "0.95",
+            "fontName": {
+              "name": "Lato",
+              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "css": "'Lato', sans-serif"
+            },
+            "fontColor": "#fffec5",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"http://vegasfiesta.fr/page35.html\" aria-expanded=\"true\" target=\"_blank\">VEGASFIESTA CASINO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">JOUEZ MAINTENANT</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://vegasfiesta.fr/page35.html\" target=\"_blank\">INSCRIPTION GRATUITE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "smile-face",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": "",
+              "active": true,
+              "color": "#94db34"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle, .btn": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "text-align": "left",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#f1c40f"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left",
+              "color": "#f1c40f",
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "buttonAlign": "left",
+            "showArrow": false,
+            "iconsColor": "#94db34",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#8e44ad",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#f1c40f",
+            "overlayOpacity": "0.2"
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "title": "<br>Le Grand Tournoi de Noël<br>",
+          "text": "<p>ne ratez pas l'occasion de gagner un premier prix de 85'000 euros<br><br>CLASSEMENT INTERMEDI&nbsp;AIRE<br></p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-0"
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#f1c40f"
+            },
+            "TD": {
+              "color": "#f1c40f"
+            },
+            "TH": {
+              "color": "#ffd220",
+              "font-size": "21px"
+            },
+            ".info, .dataTables_info": {
+              "font-size": "16px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#c0392b",
+              "text-align": "left"
+            },
+            "B": {
+              "font-size": "30px",
+              "color": "#ffd220"
+            },
+            ".dataTables_filter p, .dataTables_filter label": {
+              "text-align": "left",
+              "color": "#27ae60"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSearch": true,
+            "rowСount": "10",
+            "colCount": 4,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#c0392b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "Classement intermediare des participants",
+          "search": "recherche:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "",
+          "info4": "",
+          "table": "<thead><tr><th>PSEUDO</th><th>PRIX</th><th>PSEUDO</th><th>PRIX</th></tr></thead><tbody><tr><td><b>jamila280</b></td><td><b>85'000</b></td><td><b>cocolabulle25</b></td><td><b>600</b></td></tr><tr><td><b>carrymulate</b></td><td><b>25'000</b></td><td><b>commedesgarcons</b></td><td><b>500</b></td></tr><tr><td><b>leonrogol</b></td><td><b>10'000</b></td><td><b>fatouma_alyah</b></td><td><b>450</b></td></tr><tr><td><b>joueusefrancaise</b></td><td><b>4'000<br></b></td><td><b>stephanie27</b></td><td><b>400</b></td></tr><tr><td><b>poker26</b></td><td><b>3'000</b></td><td><b>jeandanielle</b></td><td><b>300</b></td></tr><tr><td><b>crystal_ carrington</b></td><td><b>2'000</b></td><td><b>maminelulu</b></td><td><b>200</b></td></tr><tr><td><b>colinefry</b></td><td><b>1'000</b></td><td><b>iboutet</b></td><td><b>150</b></td></tr><tr><td><b>larochelle</b></td><td><b>900<br></b></td><td><b>degrelle974</b></td><td><b>100</b></td></tr><tr><td><b>persepolis23</b></td><td><b>800</b></td><td><b>egrainvi</b></td><td><b>100</b></td></tr><tr><td><b>shabanou1977</b></td><td><b>700</b></td><td><b>ysatis33</b></td><td><b>100</b></td></tr></tbody>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-1"
+        }
+      ]
+    }
+  }
+}
