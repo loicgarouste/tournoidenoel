@@ -811,7 +811,7 @@ blockquote {
 }
 #table1-1 TH {
   color: #ffd220;
-  font-size: 21px;
+  font-size: 30px;
 }
 #table1-1 .info,
 #table1-1 .dataTables_info {
@@ -821,7 +821,7 @@ blockquote {
   text-align: left;
 }
 #table1-1 B {
-  font-size: 30px;
+  font-size: 20px;
   color: #ffd220;
 }
 #table1-1 .dataTables_filter p,
