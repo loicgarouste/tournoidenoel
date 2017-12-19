@@ -161,7 +161,7 @@
               "text-align": "left",
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#f1c40f"
+              "color": "#e67e22"
             },
             ".mbr-section-subtitle": {
               "text-align": "left",
@@ -191,8 +191,8 @@
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "overlay": true,
-            "overlayColor": "#f1c40f",
-            "overlayOpacity": "0.1"
+            "overlayColor": "#fffec5",
+            "overlayOpacity": "0.3"
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "Le Grand Tournoi de Noël<br>",
