@@ -6,8 +6,6 @@
 
 
 
-
-
 body,
 input,
 textarea,
@@ -710,6 +708,21 @@ blockquote {
   font-family: 'Open Sans', sans-serif;
 }
 /*end colorM*/
+#header2-3 .mbr-section-title,
+#header2-3 .mbr-section-subtitle,
+#header2-3 .btn {
+  color: #fff;
+}
+#header2-3 .mbr-section-title {
+  font-weight: 700;
+}
+#header2-3 .mbr-section-subtitle {
+  font-size: 36px;
+  color: #2ecc71;
+}
+#header2-3 .mbr-section-title SPAN {
+  color: #2ecc71;
+}
 #menu-2 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -778,54 +791,38 @@ blockquote {
 #menu-2 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#header2-0 .mbr-section-title,
-#header2-0 .mbr-section-subtitle,
-#header2-0 .btn {
-  color: #fff;
-}
-#header2-0 .mbr-section-title {
-  font-weight: 700;
-  text-align: left;
-  font-family: 'Lato', sans-serif;
-  color: #e67e22;
-}
-#header2-0 .mbr-section-subtitle {
-  text-align: left;
-  color: #f1c40f;
-  font-size: 30px;
-}
-#header2-0 .mbr-section-subtitle P {
-  font-family: 'Open Sans', sans-serif;
-  color: #fffec5;
-}
 #table1-1 th {
   color: #9fa3a7;
 }
 #table1-1 .mbr-section-title {
   font-size: 46px;
   font-family: 'Lato', sans-serif;
-  color: #f1c40f;
+  color: #34495e;
 }
 #table1-1 TD {
-  color: #f1c40f;
+  color: #34495e;
+  font-size: 20px;
 }
 #table1-1 TH {
-  color: #ffd220;
+  color: #34495e;
   font-size: 30px;
 }
 #table1-1 .info,
 #table1-1 .dataTables_info {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  color: #c0392b;
+  color: #94db34;
   text-align: left;
 }
 #table1-1 B {
   font-size: 20px;
-  color: #ffd220;
+  color: #34495e;
 }
 #table1-1 .dataTables_filter p,
 #table1-1 .dataTables_filter label {
   text-align: left;
   color: #27ae60;
+}
+#table1-1 TABLE {
+  text-align: left;
 }

@@ -27,7 +27,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 3,
+    "uniqCompNum": 4,
     "versionPublish": "4.5.2",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
@@ -50,6 +50,53 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle, .btn": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "36px",
+              "color": "#2ecc71"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#2ecc71"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "right",
+            "showArrow": true,
+            "iconsColor": "#ffffff",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/abstract-dots-hd-image-2000x1250.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#8e44ad",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#8e44ad",
+            "overlayOpacity": "0"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "<span style=\"font-weight: normal;\"><br></span><br><span style=\"font-weight: normal;\">TOURNOI </span><span style=\"font-weight: normal;\">DE </span><span style=\"font-weight: normal;\">NOEL</span>",
+          "text": "JOUEZ CONTRE D'AUTRES JOUEURS POUR UNE CHANCE DE GAGNER UN PREMIER PRIX DE 85'000 EUROS",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-3"
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -153,60 +200,6 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle, .btn": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "font-weight": "700",
-              "text-align": "left",
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#e67e22"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left",
-              "color": "#f1c40f",
-              "font-size": "30px"
-            },
-            ".mbr-section-subtitle P": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "color": "#fffec5"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "buttonAlign": "center",
-            "showArrow": true,
-            "iconsColor": "#94db34",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#8e44ad",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "overlay": true,
-            "overlayColor": "#fffec5",
-            "overlayOpacity": "0.3"
-          },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "Le Grand Tournoi de Noël<br>",
-          "text": "<p><span style=\"font-weight: normal;\">ne ratez pas l'occasion de gagner un premier prix de 85'000 euros</span><br></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_anchor": "header2-0"
-        },
-        {
-          "_styles": {
             "th": {
               "color": "#9fa3a7"
             },
@@ -214,29 +207,33 @@
               "font-size": "46px",
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#f1c40f"
+              "color": "#34495e"
             },
             "TD": {
-              "color": "#f1c40f"
+              "color": "#34495e",
+              "font-size": "20px"
             },
             "TH": {
-              "color": "#ffd220",
+              "color": "#34495e",
               "font-size": "30px"
             },
             ".info, .dataTables_info": {
               "font-size": "16px",
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#c0392b",
+              "color": "#94db34",
               "text-align": "left"
             },
             "B": {
               "font-size": "20px",
-              "color": "#ffd220"
+              "color": "#34495e"
             },
             ".dataTables_filter p, .dataTables_filter label": {
               "text-align": "left",
               "color": "#27ae60"
+            },
+            "TABLE": {
+              "text-align": "left"
             }
           },
           "_params": {
@@ -247,17 +244,17 @@
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/abstract-dots-hd-image-2000x1250.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#c0392b",
+            "bgColor": "#94db34",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.4
+            "overlay": true,
+            "overlayColor": "#fffec5",
+            "overlayOpacity": "0.6"
           },
           "title": "Classement intermediare des participants",
           "search": "recherche:",
@@ -265,7 +262,7 @@
           "info2": "entries",
           "info3": "",
           "info4": "",
-          "table": "<thead><tr><th>PSEUDO</th><th>PRIX</th><th>PSEUDO</th><th>PRIX</th></tr></thead><tbody><tr><td><b>carrymulate</b></td><td><b>85'000</b></td><td><b>fatouma_alyah</b></td><td><b>600</b></td></tr><tr><td><b>colinefry</b></td><td><b>25'000</b></td><td><b>commedesgarcons</b></td><td><b>500</b></td></tr><tr><td><b>jamila280</b></td><td><b>10'000</b></td><td><b>jeandanielle&nbsp;</b></td><td><b>450</b></td></tr><tr><td><b>joueusefrancaise</b></td><td><b>4'000<br></b></td><td><b>stephanie27</b></td><td><b>400</b></td></tr><tr><td><b>crystal_ carrington</b></td><td><b>3'000</b></td><td><b>cocolabulle25&nbsp;</b></td><td><b>300</b></td></tr><tr><td><b>poker26</b></td><td><b>2'000</b></td><td><b>maminelulu</b></td><td><b>200</b></td></tr><tr><td><b>shabanou1977</b></td><td><b>1'000</b></td><td><b>iboutet</b></td><td><b>150</b></td></tr><tr><td><b>cocobrando</b></td><td><b>900<br></b></td><td><b>chaleure</b></td><td><b>100</b></td></tr><tr><td><b>persepolis23</b></td><td><b>800</b></td><td><b>viviedu41</b></td><td><b>100</b></td></tr><tr><td><b>larochelle</b></td><td><b>700</b></td><td><b>mumure56</b></td><td><b>100</b></td></tr></tbody>",
+          "table": "<thead><tr><th>PSEUDO</th><th>PRIX</th><th>PSEUDO</th><th>PRIX</th></tr></thead><tbody><tr><td><b>melimelo</b></td><td><b>85'000</b></td><td><b>fanfan87</b></td><td><b>600</b></td></tr><tr><td><b>mariemarie22</b></td><td><b>25'000</b></td><td><b>mamieladouce</b></td><td><b>500</b></td></tr><tr><td><b>francoise2000</b></td><td><b>10'000</b></td><td><b>gagne321</b></td><td><b>450</b></td></tr><tr><td><b>jacquelinepernoud</b></td><td><b>4'000<br></b></td><td><b>stephanie27</b></td><td><b>400</b></td></tr><tr><td><b>momolesuro</b></td><td><b>3'000</b></td><td><b>elialilianao1&nbsp;</b></td><td><b>300</b></td></tr><tr><td><b>poker26</b></td><td><b>2'000</b></td><td><b>francesina29</b></td><td><b>200</b></td></tr><tr><td><b>catysyndie</b></td><td><b>1'000</b></td><td><b>ysatis33</b></td><td><b>150</b></td></tr><tr><td><b>cocobrando</b></td><td><b>900<br></b></td><td><b>emmaroue</b><b><br></b></td><td><b>100</b></td></tr><tr><td><b>maleviszch299</b></td><td><b>800</b></td><td><b>viviedu41</b></td><td><b>100</b></td></tr><tr><td><b>lafourbiere</b></td><td><b>700</b></td><td><b>christine27</b></td><td><b>100</b></td></tr></tbody>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
