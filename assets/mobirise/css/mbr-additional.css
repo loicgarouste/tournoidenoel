@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
 
 
 
@@ -14,11 +13,11 @@ textarea,
 .mbr-section-text,
 .mbr-company .list-group-text,
 .panel-body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .alert,
 .mbr-section-title,
@@ -26,7 +25,7 @@ textarea,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -40,7 +39,7 @@ textarea,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .btn {
   border-radius: 2.6em;
@@ -54,22 +53,22 @@ textarea,
 .nav-tabs .nav-link,
 .mbr-testimonial .card-block,
 .table th {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .mbr-author-desc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
   font-style: normal;
 }
 .bg-primary {
@@ -108,8 +107,8 @@ textarea,
   border-color: #d65548 !important;
 }
 .btn-secondary {
-  background-color: #00ccff;
-  border-color: #00ccff;
+  background-color: #16a085;
+  border-color: #16a085;
   color: #00ccff;
 }
 .btn-secondary:hover,
@@ -118,14 +117,14 @@ textarea,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #33d6ff;
-  border-color: #33d6ff;
+  background-color: #1ccdaa;
+  border-color: #1ccdaa;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #33d6ff !important;
-  border-color: #33d6ff !important;
+  background-color: #1ccdaa !important;
+  border-color: #1ccdaa !important;
 }
 .btn-info {
   background-color: #ffd220;
@@ -229,8 +228,8 @@ textarea,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #00c4f5;
-  color: #00c4f5;
+  border-color: #15977e;
+  color: #15977e;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -238,14 +237,14 @@ textarea,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #fff;
-  background-color: #00ccff;
-  border-color: #00ccff;
+  background-color: #16a085;
+  border-color: #16a085;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #000000 !important;
-  background-color: #00ccff !important;
-  border-color: #00ccff !important;
+  background-color: #16a085 !important;
+  border-color: #16a085 !important;
 }
 .btn-info-outline {
   background: none;
@@ -342,7 +341,7 @@ textarea,
   border: none !important;
 }
 .btn-secondary.btn-text {
-  color: #00ccff;
+  color: #16a085;
   background: none;
   border: none;
 }
@@ -351,7 +350,7 @@ textarea,
 .btn-secondary.btn-text.focus,
 .btn-secondary.btn-text:active,
 .btn-secondary.btn-text.active {
-  color: #33d6ff;
+  color: #1ccdaa;
   background: none !important;
   border: none !important;
 }
@@ -626,11 +625,11 @@ blockquote {
 }
 /*countdown*/
 .countdown .period {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
   font-style: normal;
 }
 .countdown .number {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .countdown1 .number-wrap {
   border-color: #c0392b;
@@ -661,7 +660,7 @@ blockquote {
   color: #c0392b;
 }
 .shop1 .shop-item-price {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .shop1 .mbr-gallery-item:hover .item_overlay {
   background: #c0392b;
@@ -675,7 +674,7 @@ blockquote {
 .person-info .title3,
 .team1 .title4,
 .person-info .title4 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .team1 .subtitle1,
 .person-info .subtitle1,
@@ -685,7 +684,7 @@ blockquote {
 .person-info .subtitle3,
 .team1 .subtitle4,
 .person-info .subtitle4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .team1 .text1,
 .person-info .text1,
@@ -695,7 +694,7 @@ blockquote {
 .person-info .text3,
 .team1 .text4,
 .person-info .text4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .person-info .subtitle1,
 .person-info .subtitle2,
@@ -704,19 +703,19 @@ blockquote {
   color: #c0392b;
 }
 .animated-bg1 .text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .features9 .timeline-panel h4 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
 }
 .features9 .timeline-panel p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .features9 .date-normal p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 .features9 .date-inverted p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bitter', serif;
 }
 /*end colorM*/
 #animated-bg1-4 .display-1 {

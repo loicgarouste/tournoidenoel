@@ -8,14 +8,14 @@
       "styling": {
         "primaryColor": "#c0392b",
         "buttonsColor": "#00ccff",
-        "secondaryColor": "#00ccff",
+        "secondaryColor": "#16a085",
         "successColor": "#e74c3c",
         "infoColor": "#ffd220",
         "warningColor": "#f1c40f",
         "dangerColor": "#ffd220",
-        "titleFont": "Merriweather",
-        "subtitleFont": "Open Sans",
-        "textFont": "Open Sans",
+        "titleFont": "Bitter",
+        "subtitleFont": "Bitter",
+        "textFont": "Bitter",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
@@ -69,7 +69,7 @@
             "showText": false,
             "showButtons": true,
             "paddingTop": "0",
-            "paddingBottom": "4",
+            "paddingBottom": "2",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
             "parallax": true,
@@ -89,7 +89,7 @@
           },
           "title": "",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">jouez maintenant</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://vegasfiesta.fr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">jouez maintenant</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -161,7 +161,7 @@
           "info2": "entries",
           "info3": "",
           "info4": "",
-          "table": "<thead><tr><th>PSEUDO</th><th>PRIX</th><th>PSEUDO</th><th>PRIX</th></tr></thead><tbody><tr><td>galivosh</td><td>85'000</td><td>madolanicoise</td><td>600</td></tr><tr><td>correzebernad</td><td>25'000</td><td>colette 21</td><td>500</td></tr><tr><td>khaledkaro</td><td>10'000</td><td>tropezienne</td><td>450</td></tr><tr><td>passemoilesel</td><td>4'000</td><td>mauvaisperdant</td><td>400</td></tr><tr><td>mariemarie22</td><td>3'000</td><td>mbalaasoiti</td><td>300</td></tr><tr><td>dellacqua_ale</td><td>2'000</td><td>popina</td><td>200</td></tr><tr><td>lafourbiere</td><td>1'000</td><td>caniyo4</td><td>150</td></tr><tr><td>melimelo</td><td>900</td><td>mamieladouce</td><td>100</td></tr><tr><td>sabrinamel</td><td>800</td><td>elialilianao1</td><td>100</td></tr><tr><td>valerielemarais</td><td>700</td><td>francesina29&nbsp;</td><td>100</td></tr></tbody>",
+          "table": "<thead><tr><th>PSEUDO</th><th>PRIX</th><th>PSEUDO</th><th>PRIX</th></tr></thead><tbody><tr><td>passemoilesel</td><td>85'000</td><td>galivosh</td><td>600</td></tr><tr><td>colette 21</td><td>25'000</td><td>correzebernad</td><td>500</td></tr><tr><td>khaledkaro</td><td>10'000</td><td>tropezienne</td><td>450</td></tr><tr><td>madolanicoise</td><td>4'000</td><td>mbalaasoiti</td><td>400</td></tr><tr><td>&nbsp;mauvaisperdant</td><td>3'000</td><td>mariemarie22</td><td>300</td></tr><tr><td>popina</td><td>2'000</td><td>dellacqua_ale</td><td>200</td></tr><tr><td>&nbsp;golimardverd</td><td>1'000</td><td>lafourbiere</td><td>150</td></tr><tr><td>sabrinamel</td><td>900</td><td>mamieladouce</td><td>100</td></tr><tr><td>melimelo</td><td>800</td><td>elialilianao1</td><td>100</td></tr><tr><td>valerielemarais</td><td>700</td><td>ysatis33</td><td>100</td></tr></tbody>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
